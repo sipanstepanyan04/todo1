@@ -1,0 +1,60 @@
+body {
+    background-color: bisque;
+}
+
+.containerList {
+    width: 600px;
+    height: 100vh;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 20px;
+    background-color: rgb(175, 218, 171);
+    overflow: hidden;
+}
+
+.inputContent {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+
+    .input {
+        flex-grow: 1;
+        height: 40px;
+        padding: 0 15px;
+        border-radius: 20px;
+        border: 1px solid red;
+
+        &:focus {
+            outline: none;
+            box-shadow: rgb(13, 13, 13) 0px 13px 27px -5px, rgb(0, 0, 0) 0px 8px 16px -8px;
+        }
+    }
+
+    .buttonAdd {
+        width: 100px;
+        border-radius: 20px;
+        border: none;
+        background-color: rgb(61, 30, 156);
+        color: azure;
+        cursor: pointer;
+    }
+}
+
+.editBtn {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(26, 178, 15);
+    color: azure;
+}
+
+.deleteBtn {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(156, 30, 30);
+    color: azure;
+}

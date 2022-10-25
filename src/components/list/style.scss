@@ -1,0 +1,18 @@
+.changesContent {
+    display: flex;
+    gap: 10px;
+
+    .changeInput {
+        width: 100%;
+        height: 40px;
+        padding: 0 20px;
+        border-radius: 20px;
+        border: 1px solid red;
+    }
+
+    .changeBtn, .resetBtn  {
+        border-radius: 10px;
+        border: none;
+            
+    }
+}
