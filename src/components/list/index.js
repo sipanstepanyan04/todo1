@@ -48,9 +48,7 @@ export default function Todo({ handleEdit, title, id, handleDelete }) {
           <button className="editBtn" onClick={editing}>
             Edit
           </button>
-          <button className="deleteBtn" onClick={() => handleDelete(id)}>
-            delete
-          </button>
+          <input type="checkbox" />
         </div>
       )}
     </div>

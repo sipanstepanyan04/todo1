@@ -9,7 +9,6 @@ import Todo from "./components/list";
 export default function App() {
   const [inputValue, setInputValue] = useState("");
   const [todo, setTodo] = useState([]);
-
   const handleInputValue = (e) => {
     setInputValue(e.target.value);
   };
@@ -21,6 +20,7 @@ export default function App() {
         title: inputValue,
         id: Math.random(),
         isComppleted: false,
+        isChecked: false,
       },
     ]);
     setInputValue("");
